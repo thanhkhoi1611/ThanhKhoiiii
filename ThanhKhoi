@@ -1,89 +1,12 @@
-local SaveManager = 
-loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V2/refs/heads/main/UiREDzV2.lua")))()
+--[[
+ .____                  ________ ___.    _____                           __                
+ |    |    __ _______   \_____  \\_ |___/ ____\_ __  ______ ____ _____ _/  |_  ___________ 
+ |    |   |  |  \__  \   /   |   \| __ \   __\  |  \/  ___// ___\\__  \\   __\/  _ \_  __ \
+ |    |___|  |  // __ \_/    |    \ \_\ \  | |  |  /\___ \\  \___ / __ \|  | (  <_> )  | \/
+ |_______ \____/(____  /\_______  /___  /__| |____//____  >\___  >____  /__|  \____/|__|   
+         \/          \/         \/    \/                \/     \/     \/                   
+          \_Welcome to LuaObfuscator.com   (Alpha 0.10.8) ~  Much Love, Ferib 
 
-       local Window = MakeWindow({
-         Hub = {
-         Title = "ThanhKhoi",
-         Animation = "Nhìn cái chóa diềềềề"
-         },
-        Key = {
-        KeySystem = false,
-        Title = "Key System",
-        Description = "",
-        KeyLink = "",
-        Keys = {"Teddy"},
-        Notifi = {
-        Notifications = true,
-        CorrectKey = "Running the Script...",
-       Incorrectkey = "The key is incorrect",
-       CopyKeyLink = "Copied to Clipboard"
-      }
-    }
-  })
+]]--
 
-       MinimizeButton({
-       Image = "http://www.roblox.com/asset/?id=88237009592343",
-       Size = {40, 40},
-       Color = Color3.fromRGB(10, 10, 10),
-       Corner = true,
-       Stroke = false,
-       StrokeColor = Color3.fromRGB(255, 0, 0)
-      })
-      
------- Tab
-     local Tab1o = MakeTab({Name = "Main"})
-     
-    
-------- BUTTON
-    
-    AddButton(Tab1o, {
-     Name = "W azure",
-    Callback = function()
-	getgenv().Team = "Pirates"
-getgenv().FixCrash = false -- Turn it On For Hopping Server, Improve Performance But Silent Aim On Mob And Player
-getgenv().FixCrash2 = false -- Turn it On For Hopping Server, Improve Performance But Will Remove Speed Changer
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc6104dabe8e19562e5cc2.lua"))()
-  end
-     })   AddButton(Tab1o, {
-     Name = "Redz Hub",
-    Callback = function()
-	  local Settings = {
-  JoinTeam = "Pirates"; -- Pirates/Marines
-  Translator = true; -- true/false
-}
-
-loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/refs/heads/main/Source.lua"))(Settings)
-  end
-  }) AddButton(Tab1o, {
-
-     Name = "AnDepZai Hub",
-
-    Callback = function()
-
- repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
-
-loadstring(game:HttpGet("https://raw.githubusercontent.com/AnDepZaiHub/AnDepZaiHubBeta/refs/heads/main/AnDepZaiHubNewUpdated.lua"))()
-
- end
-
- }) AddButton(Tab1o, {
-
-     Name = "Astral Hub",
-
-    Callback = function()
-
- loadstring(game:HttpGet("https://raw.githubusercontent.com/Overgustx2/Main/refs/heads/main/BloxFruits_25.html"))()
-
- end
-
- }) AddButton(Tab1o, {
-
-     Name = "BananaCat Hub",
-
-    Callback = function()
-
-repeat wait() until game:IsLoaded() and game.Players.LocalPlayer getgenv().Key = "mArXigiBLZIzTkFCfznnryoovpFTmCOI" loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitink/main/BananaHub.lua"))()
-
- end
-
- })
+local v0=loadstring(game:HttpGet("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V2/refs/heads/main/UiREDzV2.lua"))();local v1=MakeWindow({Hub={Title="ThanhKhoi",Animation="NhÃ¬n cÃ¡i chÃ³a diá»á»á»á»"},Key={KeySystem=false,Title="Key System",Description="",KeyLink="",Keys={"Teddy"},Notifi={Notifications=true,CorrectKey="Running the Script...",Incorrectkey="The key is incorrect",CopyKeyLink="Copied to Clipboard"}}});MinimizeButton({Image="http://www.roblox.com/asset/?id=88237009592343",Size={40,997 -(892 + 65) },Color=Color3.fromRGB(23 -13 ,18 -8 ,18 -8 ),Corner=true,Stroke=false,StrokeColor=Color3.fromRGB(605 -(87 + 263) ,180 -(67 + 113) ,0 + 0 )});local v2=MakeTab({Name="Main"});AddButton(v2,{Name="W azure",Callback=function() local v3=0;while true do if (v3==(2 -1)) then getgenv().FixCrash2=false;loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc6104dabe8e19562e5cc2.lua"))();break;end if (v3==(0 + 0)) then getgenv().Team="Pirates";getgenv().FixCrash=false;v3=1;end end end});AddButton(v2,{Name="Redz Hub",Callback=function() local v4=0;local v5;while true do if (0==v4) then v5={JoinTeam="Pirates",Translator=true};loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/refs/heads/main/Source.lua"))(v5);break;end end end});AddButton(v2,{Name="AnDepZai Hub",Callback=function() local v6=0 -0 ;while true do if (v6==(952 -(802 + 150))) then repeat wait();until game:IsLoaded() and game.Players.LocalPlayer  loadstring(game:HttpGet("https://raw.githubusercontent.com/AnDepZaiHub/AnDepZaiHubBeta/refs/heads/main/AnDepZaiHubNewUpdated.lua"))();break;end end end});AddButton(v2,{Name="Astral Hub",Callback=function() loadstring(game:HttpGet("https://raw.githubusercontent.com/Overgustx2/Main/refs/heads/main/BloxFruits_25.html"))();end});AddButton(v2,{Name="BananaCat Hub",Callback=function() local v7=0;while true do if (v7==(2 -1)) then loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitink/main/BananaHub.lua"))();break;end if (v7==0) then repeat wait();until game:IsLoaded() and game.Players.LocalPlayer  getgenv().Key="mArXigiBLZIzTkFCfznnryoovpFTmCOI";v7=1;end end end});
